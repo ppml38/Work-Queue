@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>My Work Queue</title>
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" type="text/css" href="MyStyle.css">
+<script src="jquery-1.11.2.min.js"></script>
+<script src="taskentry.js"></script>
+<script src="Code.js"></script>
+<script src="Startup.js"></script>
+</head>
+<body onbeforeunload="return dontrefresh()">
+<div class="banner">
+<table width="100%" class="banner"><tr>
+<td>&nbsp&nbspMy Work Queue</td>
+<td>
+<form id="frm"><input type="text" id="task" autofocus="true" placeholder="Add your task here..."></input></form>
+</td>
+<td><button id="add" class="mainbtn">Add Task</button></td>
+<td width="5%"><button onclick="window.print()">Print</button></td>
+</tr>
+</table>
+
+</div>
+
+<div id="sheet">
+</div>
+
+
+<div id="spt">For Queries, Feedbacks and Suggestions Please contact <a href="mailto:prakashmarialiju.p@tcs.com">Prakash Maria Liju P (886599)</a></div>
+</body>
+</html>
